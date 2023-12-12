@@ -3,6 +3,7 @@
 A CLI implementation to get explaination of a code.
 
 ## Demo
+
 https://github.com/Lichi-Dev/explain-code-cli/assets/112729771/62c700be-7384-441e-a6f8-3f3a7ccd758b
 
 ## Prerequisites
@@ -26,6 +27,16 @@ First go to the directory where the file is located and execute the following co
 
 `explain --file <fileName>`
 
+## Summary
 
+### Approach taken
 
+- Created a new directory for the project and initialized it with npm init.
+- Installed necessary packages (axios, commander, boxen, chalk and dotenv).
+- Utilized the commander library to define a CLI app with a version , options and description.
+- Created a getCodeExplanation function to get the explaination of the code from the Openai API using axios.
+- Also used boxen and chalk for styling.
 
+### Challenges faced
+
+Had issues with seting up the Openai api, since I was getting rate limit error as my credits were expired. To tackle this problem I created a new openai account and used that account.

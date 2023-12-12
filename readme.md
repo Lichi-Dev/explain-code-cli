@@ -2,6 +2,9 @@
 
 A CLI implementation to get explaination of a code.
 
+## Demo
+https://github.com/Lichi-Dev/explain-code-cli/assets/112729771/62c700be-7384-441e-a6f8-3f3a7ccd758b
+
 ## Prerequisites
 
 1. [Node.js](https://nodejs.org) and [npm](https://npmjs.com) installed.
@@ -22,3 +25,7 @@ At any time, you can view usage instructions by entering `explain --help`.
 First go to the directory where the file is located and execute the following command to explain the code:
 
 `explain --file <fileName>`
+
+
+
+

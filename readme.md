@@ -1,4 +1,4 @@
-# Example - Explain Code CLI
+# Explain Code CLI
 
 A CLI implementation to get explaination of a code.
 

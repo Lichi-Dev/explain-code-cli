@@ -9,6 +9,7 @@ const explainPara = chalk.hex("#FFA500");
 const heading = chalk.hex("#4AF626");
 const errorColor = chalk.hex("#ff3333");
 require("dotenv").config();
+const OPEN_AI_API_KEY = "YOUR_API_KEY";
 program
   .version("1.0.0")
   .description("CLI App to explain code using OpenAI API")
@@ -43,7 +44,7 @@ async function getCodeExplanation(code) {
       {
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${process.env.OPEN_AI_API_KEY}`,
+          Authorization: `Bearer ${OPEN_AI_API_KEY}`,
         },
       }
     );

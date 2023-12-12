@@ -19,6 +19,6 @@ At any time, you can view usage instructions by entering `explain --help`.
 
 ### Explain the Code
 
-To explain the code:
+First go to the directory where the file is located and execute the following command to explain the code:
 
 `explain --file <fileName>`

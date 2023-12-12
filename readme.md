@@ -39,4 +39,4 @@ First go to the directory where the file is located and execute the following co
 
 ### Challenges faced
 
-Had issues with seting up the Openai api, since I was getting rate limit error as my credits were expired. To tackle this problem I created a new openai account and used that account.
+- Had issues with seting up the Openai api, since I was getting rate limit error as my credits were expired. To tackle this problem I created a new openai account and used that account.

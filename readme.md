@@ -6,6 +6,8 @@ A CLI implementation to get explaination of a code.
 
 https://github.com/Lichi-Dev/explain-code-cli/assets/112729771/62c700be-7384-441e-a6f8-3f3a7ccd758b
 
+https://github.com/Lichi-Dev/explain-code-cli/assets/112729771/b9685418-0f2b-4d9c-8ed2-97ce798cf892
+
 ## Prerequisites
 
 1. [Node.js](https://nodejs.org) and [npm](https://npmjs.com) installed.
